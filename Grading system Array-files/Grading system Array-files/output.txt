@@ -1,0 +1,9 @@
+Saim, Fayaz 40 F
+Abdul, Qadoos 67 C
+Umair, Amir 88 A
+Farman, Ahmed 90 A
+Ali, CH 96 A
+Sheikh, Farhan 68 r
+Maximum marks are :96
+High achivers are as follows :
+CH ,Ali
