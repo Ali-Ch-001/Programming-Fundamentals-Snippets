@@ -10,3 +10,10 @@ Pride Leader is a board game simulation where players navigate through various t
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ali-Ch-001/Programming-Fundamentals-Snippets/tree/main/Pride_Leader_Game
+
+   ##To Compile
+
+   g++ -std=c++11 -o game main.cpp Board.cpp Player.cpp Tile.cpp Advisor.cpp
+
+   ##To Run
+   ./game
