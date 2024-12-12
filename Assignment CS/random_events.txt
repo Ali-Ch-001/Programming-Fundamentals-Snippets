@@ -1,0 +1,6 @@
+Desert storm sweeps through the territory|2|4|-500
+Fatigue from intense training with pride warriors|0|3|-200
+Challenging night watch duty under pitch-black conditions|1|2|-400
+Extra energy from bountiful season|1|0|800
+Observed a rare natural phenomenon|0|0|600
+Gained wisdom from observing Rafiki's rituals|1|0|500

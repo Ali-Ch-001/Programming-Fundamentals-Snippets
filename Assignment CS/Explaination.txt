@@ -1,0 +1,28 @@
+1. Same Tile Constraint
+
+In this feature, we’ve added logic to prevent two players from occupying the same tile simultaneously. Here’s how it works:
+	•	If a player’s movement lands them on a tile already occupied by another player, they will either move to the nearest unoccupied tile or lose their turn.
+	•	This feature adds an element of strategy, encouraging players to think carefully about their moves and anticipate their opponent’s path.
+	•	Why it matters: It prevents players from blocking each other unfairly while keeping the gameplay competitive and engaging.
+
+2. Extra Boost on Positive Random Events (5 Points)
+
+We’ve enhanced positive random events to include a 5-point bonus to Pride Points in addition to their existing benefits.
+	•	For instance, if a random event rewards stamina or wisdom points, players will also receive an extra boost in their Pride Points.
+	•	Why it matters: This tweak makes positive events more impactful, rewarding players for their progress and motivating them to embrace the risk of encountering random events.
+3. Unique Special Tiles for Each Path Type (5 Points)
+
+To differentiate the two paths players can choose—Cub Training or Pride Lands—we’ve implemented unique special tiles for each.
+	•	For example:
+	•	Cub Training Path has tiles like “Oasis” that grant stamina and extra turns, and “Counseling” that boosts all stats and allows players to change advisors.
+	•	Pride Lands Path has tiles like “Graveyard,” which deducts points, or “Challenge,” which tests the player’s wisdom with riddles.
+	•	Why it matters: This makes each path distinct, allowing players to strategize based on their strengths and preferences. It adds depth and replayability to the game.
+
+Presentation for Extra Credit - you can create this for your Professor 
+
+I understand we also need a presentation for extra credit. Here’s what I propose:
+	•	Introduction (30 seconds): A brief overview of the game concept and its goals.
+	•	Feature Highlights (2 minutes): Explain key mechanics like the Same Tile Constraint, Random Event Boost, and Special Tiles for each path. I can provide examples during this section.
+	•	Demo (1 minute): A quick gameplay demonstration showcasing how players navigate the board, encounter events, and make strategic choices.
+	•	Conclusion (30 seconds): Recap how these features enhance the game and why they make it fun and educational.
+

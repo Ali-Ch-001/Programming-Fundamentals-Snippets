@@ -1,0 +1,59 @@
+compile with
+
+g++ -std=c++11 -o game main.cpp Board.cpp Player.cpp Tile.cpp Advisor.cpp
+
+run with
+
+./game
+
+
+Pride Leader Game Explanation
+Overview
+"Pride Leader" is a text-based adventure game where players take on the role of lion characters navigating through various challenges to reach Pride Rock. The game involves selecting characters, advisors, and making strategic decisions to accumulate Pride Points. The player with the highest Pride Points upon reaching Pride Rock wins.
+
+Files and Their Roles
+Main Files
+main.cpp: The main driver of the game. It initializes the game, handles user input, and controls the game flow.
+Player.h / Player.cpp: Defines the Player class, which represents a player in the game. It includes attributes like name, age, pride points, stamina, strength, wisdom, and an advisor.
+Advisor.h / Advisor.cpp: Defines the Advisor class, which represents an advisor that can assist players with special abilities.
+Tile.h / Tile.cpp: Defines the Tile class, which represents different types of tiles on the game board.
+Board.h / Board.cpp: Defines the Board class, which represents the game board. It manages player positions, tile types, and board display.
+
+Data Files
+characters.txt: Contains predefined characters with their attributes.
+random_events.txt: Contains random events that can affect players during the game.
+riddles.txt: Contains riddles that players must solve to gain wisdom points.
+Features Implemented
+Character Selection
+Players can choose from a list of predefined characters loaded from characters.txt.
+Characters have attributes like name, age, strength, stamina, wisdom, and pride points.
+Advisor Selection
+Players can choose an advisor from a predefined list.
+Advisors have special abilities that can assist players during the game.
+Game Board
+The game board is represented by the Board class.
+The board consists of different types of tiles (e.g., Oasis, Counseling, Graveyard, Hyenas, Challenge, Regular).
+Players move across the board by spinning a spinner, which determines the number of steps to move.
+Random Events
+Random events from random_events.txt can occur when players land on certain tiles.
+Events can positively or negatively affect players' pride points and other attributes.
+Riddles
+Players may encounter riddles from riddles.txt on certain tiles.
+Correctly answering riddles rewards players with wisdom points.
+Game Flow
+Players take turns to move across the board.
+Players can check their progress, review their character and advisor, and move forward.
+The game ends when a player reaches Pride Rock, and the player with the highest Pride Points wins.
+Display and Interaction
+The game provides a text-based interface for displaying menus, player stats, board positions, and events.
+User input is handled through standard input (cin).
+
+
+Example Game Flow
+Starting the Game: The game starts with a welcome screen and instructions.
+Character Selection: Players select their characters from the available list.
+Advisor Selection: Players choose an advisor to assist them.
+Choosing a Path: Players choose between Cub Training and Straight to the Pride Lands.
+Taking Turns: Players take turns to spin the spinner and move across the board.
+Encountering Events: Players may encounter random events or riddles based on the tiles they land on.
+Reaching Pride Rock: The game ends when a player reaches Pride Rock, and the winner is determined based on Pride Points.
